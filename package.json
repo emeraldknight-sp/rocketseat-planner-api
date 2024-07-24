@@ -1,14 +1,18 @@
 {
-  "name": "backend",
+  "name": "rocketseat-planner-api",
   "version": "1.0.0",
+  "description": "This is an API used to create and handle travel events between friends developed during a Rocketseat NLW.",
+  "author": "David Almeida <contato.davidalmeida@outlook.com>",
   "main": "index.js",
+  "type": "module",
+  "keywords": ["rocketseat", "planner", "backend", "node", "nlw", "journey"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emeraldknight-sp/rocketseat-planner-api.git"
+  },
   "scripts": {
     "dev": "tsx watch --env-file .env src/server.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@types/node": "20.14.9",
     "@types/nodemailer": "6.4.15",
@@ -24,5 +28,6 @@
     "fastify-type-provider-zod": "2.0.0",
     "nodemailer": "6.9.14",
     "zod": "3.23.8"
-  }
+  },
+  "license": "ISC"
 }
